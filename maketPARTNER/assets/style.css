@@ -1,0 +1,52 @@
+.fs{
+    background-image: url(./img/bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.fs__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fs__img{
+    width: 120px;
+}
+
+h1{
+    font-size: 60px;
+    
+}
+
+.fs__title{
+    text-align: center;
+    color: aliceblue;
+}
+
+.fs__text{
+    color: aliceblue;
+}
+
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.container{
+    margin: 0 auto;
+    width: 944px;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__nav{
+    text-decoration: none;
+    color: black;
+}
